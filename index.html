@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+    <!-- loader -->
+    <div class="loader"></div>
+     <!-- to-do-app -->
+    <div class="to-do-container">
+        <!-- video -->
+        <video autoplay muted loop playsinline class="background-video">
+        <source src="light-rays-passing.mp4">
+        Your browser does not support the video tag.
+        </video>
+        <div class="title"></div>
+        <div class="text-bar">
+            <input type="text" class="to-do-bar" placeholder="Enter to-do...">
+            <div class="addBtn"><i class="fa-solid fa-plus"></i></div>
+        </div>
+        <ul class="to-do-items"></ul>
+    </div>
+</body>
+<script src="todo.js"></script>
+</html>
